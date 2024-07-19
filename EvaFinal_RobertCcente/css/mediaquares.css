@@ -1,0 +1,201 @@
+@media only screen and (max-width:600px) {
+
+    main h3 {
+        font-size: medium;
+    }
+
+    main h1 {
+        font-size: small;
+    }
+
+    .second th {
+        font-size: medium;
+    }
+
+    .menuheader {
+        font-weight: normal;
+        font-size: small;
+        position: absolute;
+        transform: translateX(-170%);
+        display: none;
+        height: 90vh;
+        width: 100vw;
+        margin-top: 4em;
+        background-color: black;
+        z-index: 1000000000000000000000000000000000000000000000000000000000000000000000;
+        top: 0;
+    }
+
+    .menu-header-toggle {
+        transform: translateX(-11.5%);
+    }
+    
+    .closeheader {
+        display: block;
+        margin-left: 5em;
+        margin-top: 2em;
+        position: absolute;
+        color: #ffff;
+    }
+
+    .menuheader ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .menuheader ul li a {
+        width: 100%;
+    }
+
+    .headerlow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 2em;
+    }
+
+    .headersup {
+        justify-content: center;
+    }
+
+    header h3 {
+        font-size: x-large;
+    }
+
+    .buttonmenu {
+        margin-top: 0.1em;
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .thirdtext {
+        padding-left: 5em;
+    }
+
+    .fa-bars {
+        color: #ffff;
+        font-size: 2em;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first h1 {
+        font-size: large;
+    }
+
+    .first p {
+        font-size: medium;
+    }
+
+    .first button h3 {
+        font-size: small;
+    }
+
+    .first img {
+        width: 100%;
+        height: auto;
+    }
+
+    .firstleft {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .second td {
+        padding: 1em;
+        font-size: small;
+    }
+
+    .second button {
+        width: fit-content;
+        display: none;
+    }
+    
+
+    .second button h3 {
+        font-size: small;
+        padding: 1em;
+    }
+
+    .third h1 {
+        font-size: medium;
+    }
+
+    .third button h3 {
+        font-size: small;
+    }
+
+    .third button {
+        padding: 1em;
+    }
+
+    .third {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mini1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .thirdbutton {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .mini2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mini2 img {
+        width: 80%;
+    }
+
+    .fourth {
+        display: none;
+    }
+
+    #footernone {
+        display: none;
+    }
+
+    .granfooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer1 {
+        margin: 2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .footer1 p {
+        font-weight: bolder;
+    }
+
+    .footerinput button {
+        font-size: x-small;
+    }
+
+
+}
